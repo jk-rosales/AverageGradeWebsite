@@ -1,0 +1,14 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+
+
+<h1>Add Review</h1>
+<article>
+    <form method="POST" action="/api/{{id}}/addReview">
+         <div class="input-field">
+            <label>Content:</label>
+            <input type="text" name="review" rows="20" placeholder="Blog Title..."></input>
+        </div>
+        <button type="submit" id = "submitButton">Add Review</button>
+    </form>
+</article>
+
